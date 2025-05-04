@@ -1,7 +1,10 @@
+"use client";
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
 	return (
-		<div className="flex justify-center">
-			<h1 className="font-mono font-bold">Welcome to NepaTickets </h1>
+		<div className="flex justify-center text-amber-600">
+			
 		</div>
 	);
 }
