@@ -18,14 +18,13 @@ const Navbar = () => {
 		<nav className="flex items-center justify-between bg-[#E6E6E6] px-4 py-3 md:px-8">
 			{/* Logo */}
 			<div className="flex-shrink-0">
-				{/* <Image
+				<Image
 					src="/logo.png"
 					alt="NepaTickets Logo"
 					height={40}
 					width={70}
 					className="h-10 w-auto"
-				/> */}
-                <h1>NepaTickets</h1>
+				/>
 			</div>
 
 			{/* Desktop Navigation */}
