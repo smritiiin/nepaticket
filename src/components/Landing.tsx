@@ -20,11 +20,7 @@ const Landing = () => {
 				<FlightSelection />
 			</div>
 
-			<div>
-				<h1 className=" font-bold text-4xl text-[#6B6B6B] font-kalam">
-					Your Gateway to the Airway...
-				</h1>
-			</div>
+			
 		</div>
 	);
 };
