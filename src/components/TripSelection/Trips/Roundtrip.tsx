@@ -21,7 +21,7 @@ const RoundTrip = () => {
 	// }, []);
 
 	return (
-		<div className="bg-[#E6E6E6] p-3 rounded-3xl grid grid-cols-4 gap-2">
+		<div className="bg-[#E6E6E6] p-3 rounded-3xl grid grid-cols-4 md:flex-row">
 			<div className="flex ">
 				<div className="rounded-2xl border border-black">
 					<select className="p-2 rounded">
