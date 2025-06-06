@@ -5,6 +5,7 @@ import OneWayTrip from "./Trips/Oneway";
 import Roundtrip from "./Trips/Roundtrip";
 import Multicity from "./Trips/Multicity";
 import FlightSelection from "../FlightTypeSelection/FlightTypeSelection";
+import TravelClassDropdown from "../TravelClassDropdown/TravelClassDropdown";
 
 const TripSelection = () => {
 	const [tripType, setTripType] = useState("one-way");
@@ -39,11 +40,11 @@ const TripSelection = () => {
 				</ToggleGroup>
 				<FlightSelection />
 			</div>
-			<div>
-				<h1 className="text-[#6B6B6B] font-bold font-[kalam] text-3xl">
+			<div className="flex justify-between items-center flex-wrap gap-4">
+				<h1 className="text-[#6B6B6B] font-bold font-[kalam] text-4xl">
 					Your Gateway to the Airway...{" "}
 				</h1>
-				
+				<TravelClassDropdown />
 			</div>
 			{tripType === "one-way" && <OneWayTrip />}
 			{tripType === "round-trip" && <Roundtrip />}

@@ -42,7 +42,6 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { Plane } from "lucide-react";
-import FlightSelection from "./FlightTypeSelection/FlightTypeSelection";
 import TripSelection from "./TripSelection/TripSelection";
 
 const Landing = () => {
