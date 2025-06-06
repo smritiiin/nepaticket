@@ -8,10 +8,10 @@ const TravelClassDropdown = () => {
 	const [selected, setSelected] = useState("Economy");
 
 	return (
-		<div className="relative w-60">
+		<div className="relative">
 			{/* Toggle */}
 			<div
-				className={`w-full flex justify-between items-center px-4 py-2 bg-white border-2 border-black cursor-pointer transition-all duration-200 ${
+				className={`w-32 flex justify-between items-center px-4 py-2 bg-white border-2 border-black cursor-pointer transition-all duration-200 ${
 					isOpen ? "rounded-t-2xl border-b-0" : "rounded-2xl"
 				}`}
 				onClick={() => setIsOpen((prev) => !prev)}
@@ -26,7 +26,7 @@ const TravelClassDropdown = () => {
 
 			{/* Dropdown */}
 			<div
-				className={`absolute z-10 left-0 w-full bg-white border-x-2 border-b-2 border-black overflow-hidden transition-all duration-200 ${
+				className={`absolute z-10 left-0 w-32 bg-white border-x-2 border-b-2 border-black overflow-hidden transition-all duration-200 ${
 					isOpen ? "max-h-40 opacity-100 rounded-b-2xl" : "max-h-0 opacity-0"
 				}`}
 				style={{ top: "100%" }}
